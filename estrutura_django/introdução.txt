@@ -1,0 +1,53 @@
+MANAGE
+* É um wrapper em volta do django-admin-py
+* Ele delega tarefas para o django-admin-py
+* Responsavel por colocar o pacote do projeto no sys.path
+* Define a variavel do ambiente DJANGO_SETTINGS_MODULE que então aponta para o
+arquivo settings.py
+* Por isso o manage.py é gerado automaticamente junto ao projeto, para facilitar o
+uso de comandos do django-admin.py
+-------------------------
+WSGI
+* Web Server Gateway Interface 
+* Plataforma padrão para aplicações web em Python
+* Serve de interface no servidor Web e a Aplicação Web
+* O Django com o comando startprojet inicia uma configuração WSGI padrão para que
+se possa executar sua aplicação web
+* Quando se inicia uma aplicação Django com o comando runserver é iniciado
+um servidor de aplicação web leve. Esse servidor é especificado pela configuração
+WSGI_APPLICATION
+-------------------------
+SETTINGS 
+* É o responsavel pelas configurações do Django
+* Nele é possivel configurar por exemplo, apps, conexão com banco de dados, 
+templates, time zone, cache, segurança, arquivos estáticos, etc.
+-------------------------
+URLS
+* É um schema de URL
+* Responsavel por gerenciar as rotas da URLs, onde é possivel configurar para onde
+cada rota será executada
+* É uma forma limpa e elegante para gerenciar URLs
+-------------------------
+VIEWS
+* Responsavel por processar e retornar uma resposta para o cliente que fez
+a requisição
+-------------------------
+MODELS
+* Define o modelo de dados, inteiramente em Python
+* Faz a abstração dos objetos de bancos de dados para o Python, transformando
+toda as tabelas em classes e os acessos são feito utilizando lingaugem Python, onde
+o Django realiza a transformação para SQL
+-------------------------
+ADMIN 
+* Interface adm gerada automaticamente pelo Django
+* Ele lê os metadados que estão nos models e fornece uma interface poderosa e 
+pronta para minupalção de dados
+-------------------------
+STATIC
+* Responsavel por armazenar os arquivos estaticos
+* CSS, JavaScript, imagens
+-------------------------
+TEMPLATES
+* Responsavel por armazenar os arquivos HTML
+* Diretorio de templates é Diretorio para armazarmos todo o conteúdo HTML da nossa
+aplicação
