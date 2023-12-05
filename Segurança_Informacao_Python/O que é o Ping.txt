@@ -1,0 +1,4 @@
+O ping é uma ferramente que usa protocolo ICMP para testar a conectividade entre
+nós. É um comando disponivel praticamente em todos os sistemas operacionais que
+consiste no envio de pacotes para o equipamento de destino e na "escuta" das
+respostas

@@ -1,0 +1,13 @@
+Biblioteca Random
+
+Esta Biblioteca implementa geradores de números pseudoaleatorios para várias
+distruibuições
+
+Esta Biblioteca será utilizada para gerador de senhar para randomizar letras e 
+números e a cada execução do programa gerar uma nova senha aleatória
+
+Autenticação:
+Principio que visa verificar a entidade e suas credenciais
+
+Confidencialidade:
+Principio que visa manter uma informação confidencial

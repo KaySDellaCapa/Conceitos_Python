@@ -1,0 +1,4 @@
+ping www.google.com
+ping 8.8.8.8
+ping www.pudim.com.br
+ping 4.4.4.4

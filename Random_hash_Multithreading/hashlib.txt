@@ -1,0 +1,7 @@
+Biblioteca hashlib
+
+Esta Biblioteca implemente uma interface comum para muitos 
+algoritmos de hash seguro como SHA1, SHA2, MD5 entre outros
+
+Usaremos esta Biblioteca em nosso comparador de hashes para comparar dois arquivos
+

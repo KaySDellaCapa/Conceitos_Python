@@ -1,0 +1,7 @@
+Multithreading
+
+Thread é o processo e no ambiente multithread, cada processo pode responder varias
+solicitações concorrentemente ou mesmo simultaneamente.
+
+Essa Biblioteca constrói interfaces de alto nivel para processamento usando
+o módulo Thread, de mais baixo nivel, ou seja, relação direta com o processador
